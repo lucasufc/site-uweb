@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name= "viewport" content= "width=device-width, initial-scale=1">
+	<title>DETI</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet">
+	<link rel="icon" href="img/icon.png">
+	<script src="js/konami.js"></script>
+</head>
+<body>
+	<header class="cabecalho">
+		<a href="index.html"><h1 class="logo"></h1></a>
+		<button class="btn-menu"><i class="fa fa-bars fa-lg " aria-hidden="true"></i></button>
+		<nav class = "menu">
+			<a class="btn-close" ><i class="fa fa-times" aria-hidden="true"></i></a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Professores</a></li>
+				<li><a href="us.html">Quem somos</a></li>
+				<li><a href="#">UFC</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="banner">
+		<div class= "title">
+			<h2>DETI</h2>
+			<h3>Departamento de Engenharia de Teleinformática</h3>
+		</div>
+		<div class="buttons">
+			<button class="btn-sugestoes"> Sugestões<i class="fa fa-ticket" aria-hidden="true"></i> </button>
+			<button class="btn-duvidas"> Dúvidas <i class="fa fa-question-circle" aria-hidden="true"></i>
+</button>
+		</div>
+	</div>
+	<main class="servicos">
+		<article class="servico">
+			<a href="#"><img src="img/criacoes.png" alt="Exame Nacional para Ingresso na Pós-Graduação em Computação"></a>
+			<div class="inner">
+				<a href="#"> DINDIN </a>
+				<h4>Noticia!</h4>
+				<p>Novos sabores de dindin são anunciados, especialistas garantem que tal gostosura possa ser prejudicial para economia da UFC, o vendendor misterioso disse que tudo não passa de invenção das grandes cantinas para prejudicalo!</p>
+			</div>
+		</article>
+		<article class="servico">
+			<a href="#"><img src="img/post2.png" alt="Exame Nacional para Ingresso na Pós-Graduação em Computação"></a>
+			<div class="inner">
+				<a href="#"> MELHORES PESSOAS </a>
+				<h4>Fato!</h4>
+				<p>Esse ano o Departamento de Teleinformatica da UFC é o responsável por ter as melhores pessoas de todo o DETI, alem das mais bonitas do bloco!!</p>
+			</div>
+		</article>
+		<article class="servico">
+			<a href="#"><img src="img/post3.png" alt="Exame Nacional para Ingresso na Pós-Graduação em Computação"></a>
+			<div class="inner">
+				<a href="#"> QUENTURAAAA </a>
+				<h4>Relato!</h4>
+				<p> Senhor José Barreto, bombeiro aposentado com mais de 50 anos de profissão, afirma nunca ter visto lugar tão quente quanto o LII, senhor José teve que ser levado ao hospital devido ao desmaio provocado pelo calor, apesar do susto ele passa bem! </p>
+			</div>
+		</article>
+	</main>
+<!-- NEWSLETTER -->
+	<section class="newsletter">
+		<h2>Cadastre seu email!</h2>
+		<h3>Receba Novidades,informações e muito mais!</h3>
+		<form>
+			<input type="email" name="email" placeholder="Ex: Otacilio.fogoso@arroba.com">
+			<button> Cadastrar</button>
+		</form>
+	</section>
+<!-- RODA NO PÉ -->
+	<footer class="rodape">
+		<div class="sc-icons">
+			<a href="https://www.facebook.com/PETCompUFC/" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-google"></i></a>
+			<a href="#"><i class="fa fa-instagram"></i></a>
+			<a href="#"><i class="fa fa-envelope"></i></a>
+		</div>
+		<p class="copyright">Copyright © DETI 2017. Todos os direitos reservados.</p>
+	</footer>
+<!-- JQUERY -->
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script>
+		$(".btn-menu").click(function(){
+			$(".menu").show();
+		})
+		$(".btn-close").click(function(){
+			$(".menu").hide();
+		})
+	</script>
+
+</body>
+</html>
